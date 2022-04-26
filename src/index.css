@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.travel-card-container{
+  display: flex;
+  padding:20px 36px;
+  padding-top: 30px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.travel-card-image{
+  height: 168px;
+  width: 125px;
+}
+
+.travel-card-content{
+  padding-left: 20px;
+}
+p{
+  font-size: 10.24px;
+}
+.travel-card-location{
+  padding-left: 3px;
+}
+.travel-card-maps-link{
+  padding-left: 15px;
+  font-size: 10.24px;
+  color: gray;
+}
+.travel-card-title{
+  font-size: 25px;  
+  margin-top: -2px;
+}
+.travel-card-dates{
+  font-weight: bold;
+  margin-top: 20px;
+}
+.travel-card-description{
+  font-size: 10.24px;
+  max-width: 326px;
+}
+.line{
+  max-width: 326px;
+  display: flex;
+  align-items:center;
+}
+
+.header{
+  padding-left: 20%;
+  padding-right: 20%;
+  display: flex;
+  align-items: center;
+  background-color: #F55A5A;
+  color: white;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+.header > p{
+  font-size: 14.4px;
+  padding-left: 20px;
+}
+
+.peter{
+  height: 100px;
+  width: 100px;
+}
